@@ -1,0 +1,246 @@
+body {
+    background-image: linear-gradient(to right, #45398f, #4b3d97, #5240a0, #5844a8, #5f47b1);
+    color: #F5F6FB;
+}
+
+.container {
+    box-shadow: 0 0 20px rgba(51, 37, 138,2);
+    -webkit-box-shadow: 0 0 20px rgba(51, 37, 138,2);
+    -moz-box-shadow: 0 0 20px rgba(51, 37, 138,2);
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: #F5F6FB;
+}
+
+.blue-header {
+    color: #F5F6FB;
+}
+
+.darker-blue {
+    color: #F5F6FB !important;
+}
+
+.add-task .add-task-btn,
+.option-choice .add-task-btn {
+    background: #1E88E5;
+    color: #F5F6FB;
+    max-width: 200px;
+}
+
+.cancel-task .cancel-task-btn {
+    background: #F5F6FB;
+    border: 1px solid #D3D3D3;
+    max-width: 200px;
+}
+
+.cancel-task .cancel-task-btn:hover {
+    background: rgb(255, 73, 84);
+    color: #fff;
+    border: none;
+}
+
+.btn {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-dropdown {
+    float: right;
+}
+
+.col-sm-12 .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d3d3d3;
+    box-shadow: none;
+    transition: all 0.3s;
+}
+
+.col-sm-12 .form-control {
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(225, 210, 233, 0.3);
+    background-color: transparent;
+}
+
+.form-group label {
+    color: #F5F6FB;
+}
+
+#priority option {
+    background: #4E3E9A;
+    color: #F5F6FB;
+    cursor: pointer;
+}
+
+.col-sm-12 #priority:focus {
+    color: white !important;
+}
+
+#priority {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+#tasklist {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.task-item {
+    color: #F5F6FB;
+    border-bottom: 1px solid rgba(225, 210, 233, 0.3);
+}
+
+.task-item {
+    padding: 10px 0 10px 20px !important;
+}
+
+.task-item {
+    box-shadow: 0 0 20px rgba(51, 37, 138,2);
+    -webkit-box-shadow: 0 0 20px rgba(51, 37, 138,2);
+    -moz-box-shadow: 0 0 20px rgba(51, 37, 138,2);
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.panel-footer {
+    padding: 0 20px;
+}
+
+.task-item:first-of-type .panel-footer {
+    margin-bottom: 0;
+}
+
+.task-item:last-child {
+    margin-bottom: 0;
+}
+
+.name-desc, .deadline {
+    margin-bottom: 0;
+}
+
+label {
+    margin-bottom: 0 !important;
+}
+
+.remove-label input {
+    transform: scale(1.5);
+}
+
+#task-count {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.btn.btn-secondary.dropdown-button:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn.btn-secondary.dropdown-button {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.btn.btn-secondary.dropdown-button:hover {
+    background-color: slategrey !important;
+}
+
+.btn.btn-remove-all {
+    color: #fff;
+    background: rgb(255, 73, 84);
+}
+
+.btn.btn-remove-all:hover {
+    color: #fff;
+    background: #b02c2c;
+}
+
+.delete-row {
+    margin-top: 50px;
+}
+
+#get-todays-tasks {
+    color: #fff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#visual-notification {
+    background-color: #1E88E5;
+    border: none;
+}
+
+#notification-block a {
+    color: #fff;
+}
+
+.notification-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-ul li {
+    margin-bottom: 10px;
+}
+
+.notification-ul li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 766px) {
+    .task-count {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container.my-5 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #tasklist {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .panel-footer {
+        padding: 0 10px;
+    }
+
+    .task-item {
+        padding: 10px 0 10px 10px !important;
+    }
+
+    .remove-checkbox {
+        display: none;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+
+    .removeSelected:last-child {
+        display: none !important;
+    }
+
+    .btn.btn-remove-all {
+        margin-right: 50px;
+    }
+}
